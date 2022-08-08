@@ -5,8 +5,9 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Koshak bichit
+        link(rel="stylesheet", href="./assets/css/vendors.min.js")
         link(rel="stylesheet", href="./assets/css/app.css")
     body 
-        h1 Title h1
-        p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta suscipit laborum in, quidem distinctio autem corrupti necessitatibus iste itaque, labore ipsa, nobis exercitationem tempora? Illo harum ipsum sit natus.
-        img(src="./assets/imgs/chen.webp", alt="картинка")
+        include components/header.pug
+        script(src="./assets/js/vendors.min.js")
+        script(src="./assets/js/app.js")   
